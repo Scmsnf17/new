@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #f4f4f4;
+    color: #666666;
+    font-family: "Source Sans Pro";
+    font-size: 150%;
+    font-weight: 200;
+    line-height: 1.65em;
+}
+
+#header{
+    background-image: url("../images/img01.jpg");
+    background-size: cover;
+    background-color: #444444;
+    text-align: center;
+    min-height: 100vh;
+}
+
+#header .inner{
+    margin: auto;
+    padding-top: 13%;
+    z-index: 1000;
+}
+
+#header h1{
+    font-size: 2cm;
+    padding: 0em 0.5em 0em 0.25em;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #ffffff;
+    font-weight: 900;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+
+#header h3{
+    font-family: "Source Sans Pro", sans-serif;
+    color: #cccccc;
+    font-weight: 400;
+    margin: 0 ;
+    padding: 0;
+}
+
+#header nav{
+    background-color: #000000;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 1000;
+}
+#header nav a{
+    margin-right: 25px;
+    color: #cccccc;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#wrapper{
+    width: 40em; /*Largura de 40em*/
+    margin: 0 auto; /*Margin igual a 0 para top e bottom e  auto para alinhar elemento*/
+    padding-top: 0; /**/
+    padding-right: 5em; /**/
+    padding-bottom: 2em; /**/
+    padding-left: 5em; /**/
+
+}
+
+#intro{
+    padding: 4em 4em 2em 4em;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 4em;
+    margin-top: 2em;
+}
+
+.items{
+    display: flex;
+    width: calc(100%+2em);
+    margin: -2em 0 0 -2em;
+}
+
+.item{
+    padding: 3em 3em 1em 3em;
+    background-color: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    margin: 2em 0 0 2em;
+    width: 50%;
+}
+
+.item header{
+    margin: -3em 0 3em -3em;
+    width: calc(100%+6em);
+    height: 10em;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.item header a{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+}

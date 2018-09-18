@@ -1,0 +1,37 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e4e2e2;
+}
+
+.wraper{
+    width: 60em;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.new figure{
+    width: auto;
+}
+
+.new figure img{
+    width: 400px;
+    border-radius: 3px;
+}
+
+.new figure figcaption{
+    padding: 10px;
+}
+
+.new figcaption img {
+    
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
